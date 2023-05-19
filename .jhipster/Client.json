@@ -1,0 +1,24 @@
+{
+  "applications": "*",
+  "changelogDate": "20230519224001",
+  "dto": "no",
+  "embedded": false,
+  "entityPackage": "admin",
+  "entityTableName": "clients",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "javadoc": "Tên ứng dụng"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "Quản lý ứng dụng",
+  "jpaMetamodelFiltering": true,
+  "name": "Client",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass",
+  "skipFakeData": true
+}

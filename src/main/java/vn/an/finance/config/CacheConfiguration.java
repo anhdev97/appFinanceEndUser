@@ -81,6 +81,7 @@ public class CacheConfiguration {
             createCache(cm, vn.an.finance.domain.User.class.getName(), jcacheConfiguration);
             createCache(cm, vn.an.finance.domain.Authority.class.getName(), jcacheConfiguration);
             createCache(cm, vn.an.finance.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            createCache(cm, vn.an.finance.admin.domain.Client.class.getName(), jcacheConfiguration);
             // jhipster-needle-redis-add-entry
         };
     }

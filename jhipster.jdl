@@ -1,0 +1,9 @@
+/** Quản lý ứng dụng */
+@entityPackage("admin")
+@skipFakeData
+@changelogDate(20230519224001)
+@filter
+entity Client(clients) {
+    /** Tên ứng dụng */
+    name String
+}
